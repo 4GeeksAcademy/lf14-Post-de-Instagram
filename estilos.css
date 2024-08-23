@@ -1,0 +1,22 @@
+
+
+.post-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+}
+
+.fa-ellipsis-v {
+    margin-left: auto;
+}
+
+.bookmark {
+    margin-left: auto;
+}
+
+
+.icon {
+    display:flex;
+    flex-direction: row;
+}
