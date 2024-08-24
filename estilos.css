@@ -1,10 +1,24 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+* {
+    font-family:Roboto;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
 
-
+.post{
+    margin: 100px auto;
+    background-color: #fff;
+    width: 500px;
+    height: 600px;
+}
 .post-header{
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 15px;
+    padding: 10px;
 }
 
 .fa-ellipsis-v {
@@ -13,10 +27,46 @@
 
 .bookmark {
     margin-left: auto;
+    
 }
 
+.post-icons{
+    display:flex;
+    padding: 10px;
 
+}
 .icon {
     display:flex;
-    flex-direction: row;
+    padding: 3px;
+    
+    
 }
+.post-header{
+    display:flex;
+    flex-flow:row wrap;
+}
+h1{
+    padding-left:10px;
+}
+h2 {
+    padding-left:10px;
+}
+p {
+    padding: 10px;
+}
+ 
+.fa-regular {
+    display: inline-block; 
+  }
+  
+  .fa-solid {
+    display: none; 
+  }
+  
+  .fa-regular:hover + .fa-solid {
+    display: inline-block; 
+  }
+  
+  .fa-regular:hover {
+    display: none; 
+  }
